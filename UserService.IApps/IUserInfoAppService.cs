@@ -7,7 +7,7 @@ using UserService.Dtos;
 
 namespace UserService.Apps
 {
-    public interface IUserInfoAppService
+    public interface IUserInfoAppService :IService
     {
         /// <summary>
         /// 获取用户信息
