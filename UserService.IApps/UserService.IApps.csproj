@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EasyDapr.Core\EasyDapr.Core.csproj" />
     <ProjectReference Include="..\UserService.Dtos\UserService.Dtos.csproj" />
+    <ProjectReference Include="..\UserService.Host\UserService.Host.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,8 @@
-﻿namespace UserService.IApps
+﻿using EasyDapr.Core.Abstractions;
+
+namespace UserService.IApps
 {
-    public interface IUserAccountAppService
+    public interface IUserAccountAppService : IService
     {
         /// <summary>
         /// 登录
